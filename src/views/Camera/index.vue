@@ -48,14 +48,14 @@ export default defineComponent({
     };
 
     const handleError = (error: any) => {
-    //   if (error.name === "ConstraintNotSatisfiedError") {
-    //     const v = constraints.video;
-    //     //宽高尺寸错误
-    //     message.error(`宽:${v.width.exact} 高:${v.height.exact} 设备不支持`);
-    //   } else if (error.name === "PermissionDeniedError") {
-    //     message.error("没有摄像头和麦克风使用权限,请点击允许按钮");
-    //   }
-    //   message.error(`getUserMedia错误: ${error.name}`, error);
+      //   if (error.name === "ConstraintNotSatisfiedError") {
+      //     const v = constraints.video;
+      //     //宽高尺寸错误
+      //     message.error(`宽:${v.width.exact} 高:${v.height.exact} 设备不支持`);
+      //   } else if (error.name === "PermissionDeniedError") {
+      //     message.error("没有摄像头和麦克风使用权限,请点击允许按钮");
+      //   }
+      //   message.error(`getUserMedia错误: ${error.name}`, error);
     };
 
     onMounted(() => {
